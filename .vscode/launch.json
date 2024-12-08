@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+      {
+        "name": "proyecto_tmi",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "flutterMode": "debug",
+        "deviceId": "chrome"
+      },
+      {
+        "name": "proyecto_tmi (profile mode)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "flutterMode": "profile",
+        "deviceId": "chrome"
+      },
+      {
+        "name": "proyecto_tmi (release mode)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "flutterMode": "release",
+        "deviceId": "chrome"
+      }
+    ]
+  }
+  
